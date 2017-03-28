@@ -27,27 +27,37 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <style>
       :host {
         --app-primary-color: #fff;
-        --app-secondary-color: #e6ae48;
+        --app-secondary-color: #000;
 
         display: block;
+        background-color: #fff;
       }
 
+      app-toolbar {
+        background-color: #fff;
+        color: #000;
+
+   }
+
       app-drawer-layout:not([narrow]) [drawer-toggle] {
+        background-color: #000;
         display: none;
       }
 
       app-header {
-        color: #e6ae48;
+        color: #000;
         background-color: var(--app-primary-color);
 
       }
 
       app-header paper-icon-button {
         --paper-icon-button-ink-color: white;
+        background-color: #fff;
       }
 
       .drawer-list {
         margin: 0 0px;
+        background-color: #fff;
 
       }
 
@@ -55,14 +65,19 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         display: block;
         padding: 0 16px;
         text-decoration: none;
+        font-weight: lighter;
         color: var(--app-secondary-color);
         line-height: 40px;
+        background-color: #fff;
       }
 
       .drawer-list a.iron-selected {
-        color: black;
-        font-weight: bold;
+        color: #e6ae48;
+        background-color: #fff;
       }
+
+
+
     </style>
 
     <app-location route="{{route}}"></app-location>
@@ -75,9 +90,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <app-drawer-layout fullbleed>
       <!-- Drawer content -->
       <app-drawer id="drawer" slot="drawer">
-        <app-toolbar></app-toolbar>
+        <app-toolbar class= toolbar></app-toolbar>
         <iron-selector selected="[[page]]" attr-for-selected="name" class="drawer-list" role="navigation">
-          <center><img src="images/manifest/icon-192x192.png" width=""</img></center>
+          <center></center>
           <a name="view1" href="/view1">Welcome</a>
           <a name="view2" href="/view2">Schedule</a>
           <a name="view3" href="/view3">Speakers</a>
@@ -88,7 +103,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       <!-- Main content -->
       <app-header-layout has-scrolling-region>
 
-        <app-header slot="header" condenses reveals effects="waterfall">
+        <app-header slot="header" condenses reveals effects="waterfall tall">
           <app-toolbar>
             <paper-icon-button icon="my-icons:menu" drawer-toggle></paper-icon-button>
             <div main-title></div>
