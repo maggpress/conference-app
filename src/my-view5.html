@@ -1,0 +1,77 @@
+<!--
+@license
+Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+<link rel="import" href="shared-styles.html">
+
+<dom-module id="my-view5">
+
+  <template>
+    <style include="shared-styles">
+    :host {
+      display: block;
+      padding: 10px;
+
+    }
+
+    h1 {
+      color: #e6ae48;
+    }
+
+    h4 {
+      color: #8d8d8d;
+      text-transform: uppercase;
+    }
+
+    img {
+      opacity: 1.0;
+      filter: alpha(opacity=0);
+    }
+
+    .img-circle {
+      border-radius: 50%;
+      align-content: center;
+    }
+    </style>
+
+    <div class="card">
+      <h4> Created by: </h4>
+      <center><img src="images/BreaLogo.jpg" width="100%"</img></center>
+      <center><img src="images/Meg-Simone-Films-Small.jpg" width="100%"</img></center>
+    </div>
+
+    <div class="card">
+      <h4> Presenting sponsors: </h4>
+      <center><img src="images/savvy.jpg" width="100%"</img></center>
+      <center><img src="images/williamallen.jpg" width="100%"</img></center>
+      <center><img src="images/fire.jpg" width="100%"</img></center>
+    </div>
+
+    <div class="card">
+      <h4> Supporting sponsors: </h4>
+      <center><img src="images/dj.jpg" width="50%"</img></center>
+      <center><img src="images/magg.jpg" width="50%"</img></center>
+      <center><img src="images/whiteapron.jpg" width="50%"</img></center>
+      <center><img src="images/makers-300x298.jpg" width="50%"</img></center>
+      <center><img src="images/maineseasons-300x298.jpg" width="50%"</img></center>
+      <center><img src="images/Old37LOGO-1024x791.png" width="50%"</img></center>
+      <center><img src="images/PhotoFD_logo_rev_2015-300x220.jpg" width="50%"</img></center>
+    </div>
+
+  </template>
+
+  <script>
+    class MyView5 extends Polymer.Element {
+      static get is() { return 'my-view5'; }
+    }
+
+    window.customElements.define(MyView5.is, MyView5);
+  </script>
+</dom-module>
