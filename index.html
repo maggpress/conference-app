@@ -72,7 +72,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         <script>
           if ('serviceWorker' in navigator) {
             window.addEventListener('load', function() {
-              navigator.serviceWorker.register('/service-worker.js');
+              navigator.serviceWorker.register('service-worker.js');
             });
           }
         </script>
@@ -81,7 +81,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <script src="/bower_components/webcomponentsjs/webcomponents-loader.js"></script>
 
     <!-- Load your application shell -->
-    <link rel="import" href="http://www.relevantworkshopapp.com/src/my-app.html">
+    <link rel="import" href="src/my-app.html">
 
     <!-- Add any global styles for body, document, etc. -->
     <style>

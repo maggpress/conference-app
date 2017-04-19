@@ -1,0 +1,628 @@
+<!--
+@license
+Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+<link rel="import" href="shared-styles.html">
+
+<dom-module id="my-view6">
+
+  <template>
+    <style include="shared-styles">
+    :host {
+      display: block;
+      padding: 10px;
+
+    }
+
+    h1 {
+      color: #e6ae48;
+    }
+
+    h4 {
+      color: #8d8d8d;
+      text-transform: uppercase;
+    }
+
+    a:link {
+      color:#e6ae48;
+    }
+
+
+    img {
+      opacity: 1.0;
+      filter: alpha(opacity=0);
+    }
+
+    .img-circle {
+      border-radius: 50%;
+      align-content: center;
+    }
+    </style>
+      <center><h1>Attendees:</h1></center>
+
+    <div class="card">
+      <strong>Above & Beyond Catering</br></strong>
+      Gina Sawtelle</br>
+      <a href="http://www.aboveandbeyondcatering.net">aboveandbeyondcatering.net<a>
+    </div>
+
+    <div class="card">
+      <strong>Above & Beyond Catering</br></strong>
+      	Tammy	Beaulieu</br>
+      <a href="http://www.aboveandbeyondcatering.net">aboveandbeyondcatering.net<a>
+    </div>
+
+    <div class="card">
+      <strong>Adore Rouge LLC</br></strong>
+      Brenda Poole-Kessler</br>
+      <a href="http.//www.adorerouge.com">adorerouge.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Amy Olivia Wedding and Event Photography/ Amy Pierce Photography</br></strong>
+      Amy Pierce</br>
+      <a href="http://www.amyoliviapierce.com">amyoliviapierce.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Anne Skidmore Photography</br></strong>
+      Anne Skidmore</br>
+      <a href="http://www.asweddings.com">asweddings.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Aphrodite Salon</br></strong>
+      Colleen	Griffin</br>
+      <a href="http://aphrodite-salon.com">aphrodite-salon.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Autumn Bliss Photography</br></strong>
+      Autumn Wells</br>
+      <a href="http://www.autumnblissphotography.com">autumnblissphotography.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Beautiful Days</br></strong>
+      Kate Martin</br>
+      <a href="http://www.beautifuldaysevents.com">beautifuldaysevents.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Blue Elephant Events and Catering</br></strong>
+      Reuben Bell</br>
+      <a href="http://www.blueelephantcatering.com">blueelephantcatering.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Blush Bridal & Formal</br></strong>
+      Courtney Wetzel</br>
+      <a href="http://www.blushbridalformal.com">blushbridalformal.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Boston Wedding Films</br></strong>
+      Jim	Greene</br>
+      <a href="http://www.bostonweddingfilms.com">bostonweddingfilms.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Brendan Bullock Wedding Photography</br></strong>
+      Brendan	Bullock</br>
+      <a href="http://www.bullockweddings.com">bullockweddings.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Cider House Designs</br></strong>
+      Jamie	Moody</br>
+      <a href="http://www.ciderhousedesigns.com">ciderhousedesigns.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Crown and Halo</br></strong>
+      Danylle	Hickok</br>
+      <a href="http://www.crownandhalo.com">crownandhalo.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Destination Maine Weddings/br></strong>
+      Catherine	Fairbanks-Cliffe</br>
+      <a href="http://www.destinationmaineweddings.com">destinationmaineweddings.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Dragonfly Services DOC</br></strong>
+      Wendy	Caron</br>
+      <a href="http://www.dragonflyweddingcoordinator.com">dragonflyweddingcoordinator.com<a>
+    </div>
+
+    <div class="card">
+      <strong>El's Cards</br></strong>
+      Ellen	Braley</br>
+      <a href="https://www.elscards.com/">elscards.com<a>
+    </div>
+
+    <div class="card">
+      <strong>elli&co</br></strong>
+      Ashleigh	LeBlanc</br>
+      <a href="http://www.elliand.co">elliand.co<a>
+    </div>
+
+    <div class="card">
+      <strong>Emily MacCabe Photography</br></strong>
+      Emily	MacCabe</br>
+      <a href="http://www.emilymaccabe.com">emilymaccabe.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Films with Heart</br></strong>
+      Patrik Kisucky</br>
+      <a href="http://www.filmswithheart.com">filmswithheart.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Flowers by Leslie</br></strong>
+      Heidi	Hamblett</br>
+      <a href="http://www.flowersbyleslie.com">flowersbyleslie.com<a>
+    </div>
+
+    <div class="card">
+      <strong>French's Point</br></strong>
+      Jessika	Brooks-Brewer</br>
+      <a href="http://www.fpmaine.com">fpmaine.com<a>
+    </div>
+
+    <div class="card">
+      <strong>French's Point</br></strong>
+      Sarah	Ripley</br>
+      <a href="http://www.fpmaine.com">fpmaine.com<a>
+    </div>
+
+    <div class="card">
+      <strong>French's Point</br></strong>
+      Erin Ripley</br>
+      <a href="http://www.fpmaine.com">fpmaine.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Geary Marketing Group</br></strong>
+      Beth Geary</br>
+      <a href="http://www.gearymarketing.com">gearymarketing.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Hailey & Joel</br></strong>
+      Hailey Crabtree</br>
+      <a href="http://haileyandjoel.com">haileyandjoel.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Hair That Moves</br></strong>
+      Lena Hartford</br>
+      <a href="http://www.hairthatmoves.com">hairthatmoves.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Heirloom Pictures</br></strong>
+      Marcella Hoekstra</br>
+      <a href="http://www.fpmaine.com">heirloompictures.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Hindsight Wedding Films</br></strong>
+      Bryan	Powers</br>
+      <a href="www.hindsightweddingfilms.net">hindsightweddingfilms.net<a>
+    </div>
+
+    <div class="card">
+      <strong>HPerry</br></strong>
+      Heather	Perry</br>
+      <a href="http://www.Heatherperryjewelry.com">Heatherperryjewelry.com<a>
+    </div>
+
+    <div class="card">
+      <strong>ink & thistle press</br></strong>
+      Jamie	Garrison</br>
+      <a href="http://www.inkandthistle.com">inkandthistle.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Joya beauty</br></strong>
+      Joanne	McDonough</br>
+      <a href="http://www.Joyabeauty.com">Joyabeauty.com<a>
+    </div>
+
+    <div class="card">
+      <strong>JPod Films</br></strong>
+      Jamie	Podworski</br>
+      <a href="http://www.jpodfilms.com">jpodfilms.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Kivalo Photography</br></strong>
+      Patricia Takacs</br>
+      <a href="http://www.kivalophotography.com">kivalophotography.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Lauren Rachel</br></strong>
+      Lauren Myers</br>
+      <a href="http://www.laurenrachel.com">laurenrachel.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Let There Be Love Events</br></strong>
+      Jessica	Pachuta</br>
+      <a href="http://www.LetThereBeLoveEvents.com">LetThereBeLoveEvents.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Live Well Farm</br></strong>
+      Patty	Ruppert</br>
+      <a href="www.livewellfarmmaine.com">livewellfarmmaine.com<a>
+    </div>
+
+    <div class="card">
+      <strong>LMV Productions</br></strong>
+      Matt Forcier</br>
+      <a href="http://www.LMV-Productions.com">LMV-Productions.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Lola Studios</br></strong>
+      Lauren Lear</br>
+      <a href="http://www.lola-studios.com">lola-studios.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Lotus Floral Designs</br></strong>
+      Mary Trombley</br>
+      <a href="http://Lotusfloraldesigns.com">Lotusfloraldesigns.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Madeleine's Daughter</br></strong>
+      Elizabeth	Dirom</br>
+      <a href="http://www.madeleinesdaughter.com">madeleinesdaughter.com<a>
+    </div>
+
+    <div class="card">
+      <strong>MaggPress</br></strong>
+      Beth Fitzgerald<a href="http://Maggpress.com">maggpress.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Maine Media Workshops + College</br></strong>
+      Mark Higgins</br>
+      <a href="http://www.mainemedia.edu">mainemedia.edu<a>
+    </div>
+
+    <div class="card">
+      <strong>Maine Tinker Photography</br></strong>
+      Siobhan	Bogle</br>
+      <a href="http://www.themainetinker.com">themainetinker.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Maine Wedding Network</br></strong>
+      Maria	Northcott</br>
+      <a href="http://www.maineweddingnetwork.com">maineweddingnetwork.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Marigold Floral Studio</br></strong>
+      Leslie Otto</br>
+      <a href="http://www.marigoldfloral.com/">marigoldfloral.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Media Northeast, Inc</br></strong>
+      Josh Swan</br>
+      <a href="http://www.medianortheast.com">medianortheast.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Melissa Mullen Photography</br></strong>
+      Melissa	Mullen</br>
+      <a href="http://melissamullenphotography.com">melissamullenphotography.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Molly & Victoria Photography</br></strong>
+      Victoria Johnson</br>
+      <a href="http://mollyandvictoriaphotographyco.com">mollyandvictoriaphotographyco.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Moonset Farm Floral</br></strong>
+      Jackie Gardner</br>
+      <a href="http://moonsetfarms.com">moonsetfarms.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Nadra Photography</br></strong>
+      Nadra	Edgerley</br>
+      <a href="http://nadraphotography.com">nadraphotography.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Next Level Films</br></strong>
+      Lisa Serino</br>
+      <a href="http://www.nextlevelfilms.com">nextlevelfilms.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Nicole Boucher, LLC</br></strong>
+      Nicole Boucher</br>
+      <a href="http://www.nboucher.com">nboucher.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Nicole Mower Weddings and Events</br></strong>
+      Nicole Mower</br>
+      <a href="http://www.nicolemower.com">nicolemower.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Nourish Skin Care Studio</br></strong>
+      Kim	Parent</br>
+      <a href="http://www.Nourishskincarestudio.com">nourishskincarestudio.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Perle Photography</br></strong>
+      Meghan Benner</br>
+      <a href="http://www.perlephotography.com">perlephotography.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Picture Perfect Proposal</br></strong>
+      Gwenyth	Weitk</br>
+      <a href="http://www.pictureperfectproposal.com">pictureperfectproposal.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Pratt Abbott</br></strong>
+      Angela Emery</br>
+      <a href="http://www.prattabbott.com">prattabbott.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Rebecca Richards Photography</br></strong>
+      Rebecca	Richards</br>
+      <a href="http://www.rebecca-richards.com">rebecca-richards.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Saint Jospeh's College</br></strong>
+      Tracy	Albert</br>
+      <a href="http://www.sjcme.edu">sjcme.edu<a>
+    </div>
+
+    <div class="card">
+      <strong>Sara Fitz</br></strong>
+      Sara O'Brien</br>
+      <a href="http://sarafitz.com">sarafitz.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Savvy Event Rental</br></strong>
+      Carrie Cianchette</br>
+      <a href="http://savvyeventrental.com">savvyeventrental.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Savvy Event Rental</br></strong>
+      Kelsey Schild</br>
+      <a href="http://savvyeventrental.com">savvyeventrental.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Selah Films</br></strong>
+      Leah Richardson</br>
+      <a href="http://www.selahfilms.com">selahfilms.com<a>
+    </div>
+
+    <div class="card">
+      <strong>SP Films</br></strong>
+      Nora McCormack</br>
+      <a href="http://www.sp-films.com">sp-films.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Sparkling Occasions</br></strong>
+      Leslye Amico</br>
+      <a href="http://www.SparklingOccasionsLLC.com">SparklingOccasionsLLC.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Sperry Tent</br></strong>
+      Michael	Parkin</br>
+      <a href="http://sperrytentsseacoast.com">sperrytentsseacoast.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Sperry Tents Seacoast</br></strong>
+      Liz	Simays</br>
+      <a href="http://sperrytentsseacoast.com">sperrytentsseacoast.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Spring Smith Studios</br></strong>
+      Spring McKenney</br>
+      <a href="http://www.springsmithstudios.com">springsmithstudios.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Tammy Golson Events</br></strong>
+      Tammy	Fallon</br>
+      <a href="http://www.tammygolson.com">tammygolson.com<a>
+    </div>
+
+    <div class="card">
+      <strong>The Bar Association/Caswell Farm</br></strong>
+      Catherine	Caswell</br>
+      <a href="https://www.caswellfarm-me.com/">caswellfarm-me.com/<a>
+    </div>
+
+    <div class="card">
+      <strong>The Black Tie Company</br></strong>
+      Christine	Weber</br>
+      <a href="http://theblacktieco.com">theblacktieco.com<a>
+    </div>
+
+    <div class="card">
+      <strong>The Contented Sole / The Bradley Inn</br></strong>
+      Beth Polhemus</br>
+      <a href="http://sperrytentsseacoast.com">pemaquidweddings.com<a>
+    </div>
+
+    <div class="card">
+      <strong>The Crown</br></strong>
+      Christine	Flanagan</br>
+      <a href="http://thecrownboutique.com">thecrownboutique.com<a>
+    </div>
+
+    <div class="card">
+      <strong>The Dreamy Dragonfly</br></strong>
+      Sara Nelson</br>
+      <a href="http://www.thedreamydragonfly.com">thedreamydragonfly.com<a>
+    </div>
+
+    <div class="card">
+      <strong>The Henry's Bridal Boutique</br></strong>
+      Molly	Lincoln</br>
+      <a href="http://www.bangorbridal.com">bangorbridal.com<a>
+    </div>
+
+    <div class="card">
+      <strong>The Old 37</br></strong>
+      Rebecca	Williams</br>
+      <a href="http://Theold37.com">theold37.com<a>
+    </div>
+
+    <div class="card">
+      <strong>The Purple Orchid, Event Planning</br></strong>
+      Kristina	Slocum</br>
+      <a href="http://Purpleoe.com">Purpleoe.com<a>
+    </div>
+
+    <div class="card">
+      <strong>The Refinery</br></strong>
+      Adrienne Horty</br>
+      <a href="http://www.refineryevents.com">refineryevents.com<a>
+    </div>
+
+    <div class="card">
+      <strong>The White Apron</br></strong>
+      Jay	Curcio</br>
+      <a href="http://Www.thewhiteapron.com">thewhiteapron.com<a>
+    </div>
+
+    <div class="card">
+      <strong>The White Apron</br></strong>
+      Liz	Curcio</br>
+      <a href="http://Www.thewhiteapron.com">thewhiteapron.com<a>
+    </div>
+
+    <div class="card">
+      <strong>The White Apron</br></strong>
+      Victoria Nakis</br>
+      <a href="http://Www.thewhiteapron.com">thewhiteapron.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Tops'l Farm</br></strong>
+      Sarah	Pike</br>
+      <a href="http://www.TopslFarm.com">TopslFarm.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Two Pines Creative</br></strong>
+      Brian	Tetrault</br>
+      <a href="https://www.twopinescreative.com">twopinescreative.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Two Pines Creative</br></strong>
+      Meg	Tetrault</br>
+      <a href="https://www.twopinescreative.com">twopinescreative.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Wavelength</br></strong>
+      Johnna Dionne</br>
+      <a href="http://www.wavelengthband.com">wavelengthband.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Wentworth Event Center</br></strong>
+      Kristine Colson</br>
+      <a href="http://www.wentwortheventcenter.comm">wentwortheventcenter.com<a>
+    </div>
+
+    <div class="card">
+      <strong>White Mountain Cupcakerys</br></strong>
+      Katherine	Iannuzzi</br>
+      <a href="http://wmcupcakery.com">wmcupcakery.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Whitney J. Fox Photography</br></strong>
+      Whit Fox</br>
+      <a href="http://www.whitneyjfoxweddings.com">whitneyjfoxweddings.com<a>
+    </div>
+
+    <div class="card">
+      <strong>William Allen Farm</br></strong>
+      Heidi	Curry</br>
+      <a href="http://www.williamallenfarm.com">www.williamallenfarm.com<a>
+    </div>
+
+    <div class="card">
+      <strong>William Allen Farm</br></strong>
+      Al Curry</br>
+      <a href="http://www.williamallenfarm.com">www.williamallenfarm.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Windy Hill Photography</br></strong>
+      Liz	Hayford</br>
+      <a href="http://www.windyhillphotography.com">windyhillphotography.com<a>
+    </div>
+
+    <div class="card">
+      <strong>York Harbor Inn</br></strong>
+      Cheyenne Wright</br>
+      <a href="http://www.yorkharborinn.com">yorkharborinn.com<a>
+    </div>
+
+    <div class="card">
+      <strong>York Harbor Inn</br></strong>
+      Paul Gagnony</br>
+      <a href="http://www.yorkharborinn.com">yorkharborinn.com<a>
+    </div>
+
+    <div class="card">
+      <strong>Zula Bell</br></strong>
+      Jessica	Thibodeau</br>
+      <a href="http://www.zulabell.com">zulabell.com<a>
+    </div>
+
+  </template>
+
+  <script>
+    class MyView6 extends Polymer.Element {
+      static get is() { return 'my-view6'; }
+    }
+
+    window.customElements.define(MyView6.is, MyView6);
+  </script>
+</dom-module>

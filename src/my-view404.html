@@ -12,20 +12,66 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
 <dom-module id="my-view404">
   <template>
-    <style>
+    <style include="shared-styles">
       :host {
         display: block;
+        padding: 0px;
+        margin: auto;
 
-        padding: 10px 20px;
       }
-    </style>
 
-    <!--
-      If deploying in a folder replace href="/" with the full path to your site.
-      Such as: href=="http://polymerelements.github.io/polymer-starter-kit"
-    -->
-    Oops you hit a 404. <a href="/">Head back to home.</a>
-  </template>
+      .tag {
+        color: #000;
+        font-weight: lighter;
+        color: #000;
+        text-align: center;
+        border: 5px, 5px, 5px, 5px;
+      }
+      li {
+        list-style-type: none;
+        color: #000;
+      }
+
+      h1, h3 {
+        color: #000;
+        font-weight: 100;
+      }
+
+      h4 {
+        color: #8d8d8d;
+        font-weight: 100;
+      }
+
+      p {
+        color: #000;
+      }
+
+      .card {
+        background-color: #e6ae48;
+      }
+
+      .quote {
+        background-color: #fff;
+        padding: 32px;
+      }
+
+    </style>
+    <div class="quote" background-color:="" #ffffff="">
+      <center><img src="images/cropped-relevantlogo-300x300.png" width="40%" <="" img=""></center>
+      <em><strong><h4>The Relevant Workshop is a place for wedding community members to come together for a day of inspiration, education, and engagement which will elevate our wedding industry and strive to keep us relevant in our craft.</h4></strong></em>
+       <center><p>Join us on Thursday, April 27 at the William Allen Farm in Pownal, Maine!</p></center>
+    </div><div class="card">
+      <center><h3><strong>App Instructions: </strong></h3>
+      <p><strong>Welcome! This is a progressive web app. Please add it to your mobile or tablet home screen.</strong></p><strong>
+      <center><h3>ADD TO MY iPHONE:</h3></center>
+      <img src="images/imgres.jpg" width="75%" <="" img="">
+      <p>1. At the bottom, you'll see an icon depicting an arrow leaving a square.<br>2. Tap that button.<br>3. Select 'Add To Home Screen'. Your app icon will add to your device.</p></strong></center><strong>
+      <center><h3>ADD TO MY ANDROID, SAMSUNG: </h3>
+      <img src="images/imgres3.jpg" width="45%" <="" img="">
+      <p>1. Tap the top, left menu button. <br>Looks like three verticle dots. <br>2. Tap that button.<br>3. Select Add To Home Screen. Your app icon will add to your device.</p>
+      </center></strong></div><strong>
+
+  </strong></template>
 
   <script>
     class MyView404 extends Polymer.Element {
